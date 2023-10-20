@@ -8,7 +8,7 @@ def draw_board():
         print('|', board[i*3], '|', board[i*3+1], '|', board[i*3+2], '|')
         print('')
 
-# Function to check for a winner
+# Function to check for a winner.
 def check_win(player):
     # Check rows and columns
     for i in range(3):
