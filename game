@@ -1,7 +1,7 @@
 # Create the game board
 board = [' ' for _ in range(9)]
 
-# Function to draw the game board
+# Function to draw the game board.
 def draw_board():
     print('---------')
     for i in range(3):
